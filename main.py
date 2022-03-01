@@ -4,7 +4,7 @@ from flask import Flask, request
 
 
 TOKEN = '5222661077:AAGytBJpA4I62AlXyvTrUQV_QH7M9jBI42k'
-APP_URL = f'{TOKEN}'
+APP_URL = f'https://git.heroku.com/immense-badlands-46863.git{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 
