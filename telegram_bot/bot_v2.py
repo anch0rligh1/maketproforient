@@ -467,5 +467,6 @@ def pick_answer(message):
                                           " вернемся в начало всего с помощью этой кнопки", reply_markup=markup)
 
 
+
 # 44 условия лол
 bot.polling(none_stop=True, interval=0)
